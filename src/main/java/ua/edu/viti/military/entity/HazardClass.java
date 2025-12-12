@@ -1,4 +1,9 @@
 package ua.edu.viti.military.entity;
 
-public class HazardClass {
+public enum HazardClass {
+    NON_HAZARDOUS,
+    FLAMMABLE,
+    EXPLOSIVE,
+    TOXIC,
+    CORROSIVE
 }
